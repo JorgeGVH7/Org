@@ -10,7 +10,7 @@ function App() {
   const [mostrarFormulario, actuazlizarMostrar] = useState(true);
   const [colaboradores, actualizarColaboradores] = useState([{
     id: uuidv4(),
-    equipo:"Front End",
+    equipo:"Front-End",
     foto:"https://github.com/JorgeGVH7.png",
     nombre:"Jorge Garibay",
     puesto:"Programador",
@@ -19,41 +19,41 @@ function App() {
     {
       id: uuidv4(),
       equipo:"Programación",
-      foto:"https://github.com/JorgeGVH7.png",
-      nombre:"Jorge Garibay2",
-      puesto:"Programador",
+      foto:"https://github.com/genesysaluralatam.png",
+      nombre:"Genesys Rondón",
+      puesto:"Programadora",
       fav: true
       },
       {
         id: uuidv4(),
-        equipo:"Front End",
-        foto:"https://github.com/JorgeGVH7.png",
-        nombre:"Jorge Garibay3",
-        puesto:"Programador",
-        fav: false
+        equipo:"Front-End",
+        foto:"https://github.com/harlandlohora.png",
+        nombre:"Harland Lohora",
+        puesto:"Instructor",
+        fav: true
         },
         {
           id: uuidv4(),
           equipo:"Data Science",
-          foto:"https://github.com/JorgeGVH7.png",
-          nombre:"Jorge Garibay4",
-          puesto:"Programador",
+          foto:"https://github.com/JeanmarieAluraLatam.png",
+          nombre:"Jeanmarie Quijada",
+          puesto:"Instructora",
           fav:false
           },
           {
             id: uuidv4(),
             equipo:"UX y Diseño",
-            foto:"https://github.com/JorgeGVH7.png",
-            nombre:"Jorge Garibay5",
+            foto:"https://github.com/christianpva.png",
+            nombre:"Christian Velasco",
             puesto:"Programador",
             fav: false
             },
             {
               id: uuidv4(),
-              equipo:"UX y Diseño",
-              foto:"https://github.com/JorgeGVH7.png",
-              nombre:"Jorge Garibay6",
-              puesto:"Programador",
+              equipo:"Programación",
+              foto:"https://github.com/JoseDarioGonzalezCha.png",
+              nombre:"Jose Gonzales",
+              puesto:"Dev. FullStack",
               fav: false
               }
   ]);
@@ -65,7 +65,7 @@ function App() {
     },
     {
       id: uuidv4(),
-      titulo:"Front End",
+      titulo:"Front-End",
       colorPrimario:"#82CFFA",
       colorSecundario:"#E8F8FF"
     },
@@ -99,7 +99,7 @@ function App() {
       colorPrimario:"#FF8A29",
       colorSecundario:"#FFEEDF"
     }]);
-  
+    
   //Temario --> condicion? seMuestra : noSeMuestra
   
   const cambiarMostrar = () => {

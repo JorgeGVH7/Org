@@ -23,12 +23,19 @@ const Formulario = (props) => {
             foto: foto,
             equipo: equipo
         }
-        registrarColaborador(datosAEnviar)
+        registrarColaborador(datosAEnviar);
+
+        setNombre("");
+        setPuesto("");
+        setFoto("");
+        setEquipo("");
     }
 
     const manejarEnvioDeEquipo = (e) =>{
         e.preventDefault();
         nuevoEquipo({titulo, colorPrimario: color})
+        setColor("");
+        setTitulo("")
     }
     return <section className="formulario">
         <form onSubmit={manejarEnvio}>
